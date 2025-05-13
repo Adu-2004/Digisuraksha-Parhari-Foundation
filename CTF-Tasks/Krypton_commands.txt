@@ -1,0 +1,84 @@
+Level0
+
+echo "S1JZUFRPTklTR1JFQVQ=" | base64 -d 
+pass: KRYPTONISGREAT
+
+
+Level1
+
+ssh krypton1@krypton.labs.overthewire.org -p 2231
+pass: KRYPTONISGREAT
+cd /krypton/krypton1
+ls -al
+cat krypton2 | tr '[A-za-z]' '[N-ZA-Mn-za-m]'
+pass: LEVEL TWO PASSWORD ROTTEN
+
+
+Level2
+
+ssh krypton2@krypton.labs.overthewire.org -p 2231
+pass: ROTTEN
+cd /krypton/krypton2
+cat README
+cat krypton3
+mktemp -d
+cp encrypt /tmp/tmp.illPi3SHp4
+cd /tmp/tmp.illPi3SHp4
+echo "ABCD" > keyfile.dat
+./encrypt keyfile.dat
+cat ciphertext
+echo "OMQEMDUEQMEK" | tr '[M-ZA-Lm-za-l]' '[A-MN-Za-mn-z]'
+
+
+Level3
+
+ssh krypton3@krypton.labs.overthewire.org -p 2231
+pass: CAESARISEASY
+cd /krypton/krypton3
+cat found1
+cat found2
+cat krypton3
+
+cat krypton3 | tr '[ABCDEFGHIJKLMNOPQRSTUVWXYZ]' '[BOIHGKNQXTWYURVZAJEMSLDFPC]'
+pass: BRUTE
+
+
+Level4:
+
+ssh krypton4@krypton.labs.overthewire.org -p 2231
+pass: BRUTE
+cd /krypton/krypton4
+ls -al
+cat README
+pass: CLEARTEXT
+
+
+Level5:
+
+ssh krypton5@krypton.labs.overthewire.org -p 2231
+pass: CLEARTEXT
+cd /krypton/krypton5
+cat found1
+cat found2
+cat krypton6
+pass: RANDOM
+
+
+Level6:
+
+ssh krypton6@krypton.labs.overthewire.org -p 2231
+pass: RANDOM
+cd /krypton/krypton6
+ls -al
+cat HINT1
+cat HINT2
+cat README
+mktemp -d
+cd /tmp/tmp.ZWAQntkSSH
+cp /krypton/krypton6/encrypt6 ./
+python3 -c "print('A'*100)" > keyfile.dat
+./encrypt6 keyfile.dat f1
+cat f1
+cat /krypton/krypton6/krypton7
+
+pass:

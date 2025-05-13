@@ -1,0 +1,365 @@
+﻿OverTheWire Natas Levels - Commands
+
+
+# Level 0
+URL: http://natas0.natas.labs.overthewire.org
+Username: natas0
+Password: natas0
+Commands:
+  - Open the URL in a web browser.
+  - Inspect the page source for hints.
+
+
+# Level 1
+URL: http://natas1.natas.labs.overthewire.org
+Username: natas1
+Password: gtVrDuiDfck831PqWsLEZy5gyDz1clto
+Commands:
+  - Open the URL in a web browser.
+  - Log in with the provided username and password.
+  - Inspect the page source for hints.
+
+
+# Level 2
+URL: http://natas2.natas.labs.overthewire.org
+Username: natas2
+Password: ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi
+Commands:
+  - Open the URL in a web browser and log in.
+  - Inspect the page source for hints (comments, file paths).
+  - Try to access the `/files/` directory.
+
+
+# Level 3
+URL: http://natas3.natas.labs.overthewire.org
+Username: natas3
+Password: sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14
+Commands:
+  - Open the URL in a web browser and log in.
+  - Inspect the page source for hints (comments, file paths).
+  - Use `robots.txt` to find disallowed directories.
+  - Investigate any found directories.
+
+
+# Level 4
+URL: http://natas4.natas.labs.overthewire.org
+Username: natas4
+Password: Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ
+Commands:
+  - Open the URL in a web browser and log in.
+  - Inspect the page source for hints.
+  - Use browser developer tools to examine HTTP headers (especially the Referer header).
+  - Try modifying the Referer header in your requests (e.g., using `curl` with the `-H` option or browser extensions).
+
+
+# Level 5
+URL: http://natas5.natas.labs.overthewire.org
+Username: natas5
+Password: iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
+Commands:
+  - Open the URL in a web browser and log in.
+  - Inspect the page source for hints.
+  - Examine cookies using browser developer tools.
+  - Try modifying cookie values.
+
+
+# Level 6
+URL: http://natas6.natas.labs.overthewire.org
+Username: natas6
+Password: aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
+Commands:
+  - Open the URL in a web browser and log in.
+  - Inspect the page source for hints (likely a source code link).
+  - Download and analyze the provided source code.
+  - Understand the logic and identify vulnerabilities.
+
+
+# Level 7
+URL: http://natas7.natas.labs.overthewire.org
+Username: natas7
+Password: 7z3hEENjQtflzgnT29q7wAvMNfZdh0i9
+Commands:
+  - Open the URL in a web browser and log in.
+  - Inspect the page source for hints (likely links or parameters).
+  - Try different values for the `page` parameter in the URL.
+  - Look for Local File Inclusion (LFI) vulnerabilities.
+
+
+# Level 8
+URL: http://natas8.natas.labs.overthewire.org
+Username: natas8
+Password: U8SHT3nFhWBvXgmdcMGmniABCNSjL5jn
+Commands:
+  - Open the URL in a web browser and log in.
+  - Inspect the page source for hints (likely JavaScript code).
+  - Analyze the JavaScript code to understand the encoding/decoding mechanism.
+  - Use a programming language (like Python) or online tools to reverse the process and find the password.
+
+
+# Level 9
+URL: http://natas9.natas.labs.overthewire.org
+Username: natas9
+Password: niP6Ld9OmXAAjv9jBdVfo29DCacwirYh
+Commands:
+  - Open the URL in a web browser and log in.
+  - Inspect the page source for hints.
+  - Try using command injection vulnerabilities in the provided input field.
+  - Examples: `; ls`, `; cat /etc/natas_webpass/natas10`
+
+
+# Level 10
+URL: http://natas10.natas.labs.overthewire.org
+Username: natas10
+Password: nOpp1igDcgUjlbxiNFcdjEDD2cwdis1k
+Commands:
+  - Open the URL in a web browser and log in.
+  - Inspect the page source for hints.
+  - Try bypassing input filtering by using different command injection techniques (e.g., `|`, `||`, `&`, `&&`).
+
+
+# Level 11
+URL: http://natas11.natas.labs.overthewire.org
+Username: natas11
+Password: UjO9Mq4hLqSdApgiZmBv5BNXajWtUUZr
+Commands:
+  - Open the URL in a web browser and log in.
+  - Examine cookies using browser developer tools.
+  - Analyze how the cookie value is generated (likely involving encoding/encryption).
+  - Try to reverse the process or manipulate the cookie to gain access.
+
+
+# Level 12
+URL: http://natas12.natas.labs.overthewire.org
+Username: natas12
+Password: jNifWc6jmj8FQwsvsB7ithPKoZmbj1LX
+Commands:
+  - Open the URL in a web browser and log in.
+  - Try uploading different file types.
+  - Investigate potential file upload vulnerabilities and bypass techniques (e.g., changing file extensions, using special characters in filenames).
+
+
+# Level 13
+URL: http://natas13.natas.labs.overthewire.org
+Username: natas13
+Password: jmL4cfgmKAYu448nyUpjkt5dWxqbnF7i
+Commands:
+  - Open the URL in a web browser and log in.
+  - Try uploading different file types.
+  - Investigate file upload vulnerabilities, focusing on content-based restrictions (e.g., magic bytes).
+  - Try crafting files to bypass these restrictions.
+
+
+# Level 14
+URL: http://natas14.natas.labs.overthewire.org
+Username: natas14
+Password: LgEholFjK9SjuGVFhqZxGzY7ShAljyTA
+Commands:
+  - Open the URL in a web browser and log in.
+  - Analyze the login form and the SQL query likely used for authentication.
+  - Try SQL injection techniques in the username and/or password fields.
+  - Example: `' or 1=1 -- `
+
+
+# Level 15
+URL: http://natas15.natas.labs.overthewire.org
+Username: natas15
+Password: Aw2jRntCniggmz097YPJvpBDbWc0Sd6D
+Commands:
+  - Open the URL in a web browser.
+  - Observe the behavior of the "user exists" check.
+  - Try Blind SQL injection techniques to extract the password character by character.
+  - You might use tools like `curl` and write scripts to automate this process.
+
+
+# Level 16
+URL: http://natas16.natas.labs.overthewire.org
+Username: natas16
+Password: WaIHEacj63wnNIBROHeqi3b9S5sexjcn
+Commands:
+  - Open the URL in a web browser.
+  - Try command injection, but be aware of potential filtering.
+  - Experiment with different command injection techniques and payloads, including those that might bypass filtering (e.g., using `grep -e`).
+
+
+# Level 17
+URL: http://natas17.natas.labs.overthewire.org
+Username: natas17
+Password: 8Ps3H0GWbn5rd9S7GmAdgQNdkhPkq9cw
+Commands:
+  - Open the URL in a web browser.
+  - Observe the behavior related to the username parameter.
+  - Try Blind SQL injection based on time delays. If a certain condition is true, the query might take longer.
+  - Use scripting and tools like `curl` with time measurement to extract the password.
+
+
+# Level 18
+URL: http://natas18.natas.labs.overthewire.org
+Username: natas18
+Password: xvKIqDjy4OPv7wCRgDlmj0pFsCsxhInZ
+Commands:
+  - Open the URL in a web browser and log in.
+  - Examine cookies and session management.
+  - Try to manipulate session IDs or identify patterns in their generation.
+  - Look for race conditions or other session-related vulnerabilities.
+
+
+# Level 19
+URL: http://natas19.natas.labs.overthewire.org
+Username: natas19
+Password: 4IwIrekcuZlA9gzPkc0yXvDkGvPhBnHX
+Commands:
+  - Open the URL in a web browser and log in.
+  - Examine cookies and session management.
+  - Analyze the format of the session ID. It might contain user information.
+  - Try to decode or manipulate the session ID to impersonate other users (including the admin).
+
+
+# Level 20
+URL: http://natas20.natas.labs.overthewire.org
+Username: natas20
+Password: eof3vi3j7t5O7WiKIq9v0ovyPJmJm1zd
+Commands:
+  - Open the URL in a web browser and log in.
+  - Observe how the website handles session data, possibly stored in files.
+  - Try to manipulate the data stored in your session file.
+  - Look for ways to include malicious code or overwrite other session files.
+
+
+# Level 21
+URL: http://natas21.natas.labs.overthewire.org
+Username: natas21
+Password: IfWnqJcHxLYjdlSyPH95AFxfr65nqFyk
+Commands:
+  - Open the URL in a web browser.
+  - Analyze the form and the way it handles input across multiple steps or pages.
+  - Try to manipulate the data being passed between steps, potentially bypassing checks or injecting malicious data.
+
+
+# Level 22
+URL: http://natas22.natas.labs.overthewire.org
+Username: natas22
+Password: chFv4pYPH3kI9kOe9c9xWXZxqCa9cw5v
+Commands:
+  - Open the URL in a web browser.
+  - Pay close attention to redirects and how parameters are handled during redirection.
+  - Try to manipulate the redirect URL or inject data into the redirected request.
+
+
+# Level 23
+URL: http://natas23.natas.labs.overthewire.org
+Username: natas23
+Password: AcYwOHr8dVi7jXQPe4nVxu4cGCDAYvw6
+Commands:
+  - Open the URL in a web browser.
+  - The solution likely involves understanding the random number generation or a related vulnerability.
+  - Analyze any provided code or the behavior of the application to identify weaknesses in the randomness.
+
+
+# Level 24
+URL: http://natas24.natas.labs.overthewire.org
+Username: natas24
+Password: GHmV4Hvr5jWtLg47jbu79rc3sqYozBc9
+Commands:
+  - Open the URL in a web browser.
+  - This level often involves exploiting a time-based vulnerability or a race condition.
+  - Analyze how user deletion is handled and try to delete another user (like the admin) by exploiting timing issues.
+
+
+# Level 25
+URL: http://natas25.natas.labs.overthewire.org
+Username: natas25
+Password: alX7j1BuOgZ7brbrn7nKBmM97JlVFxEi
+Commands:
+  - Open the URL in a web browser.
+  - This level might involve log file analysis or a vulnerability related to how logs are processed or displayed.
+  - Try to inject data into the logs that could reveal information or be executed.
+
+
+# Level 26
+URL: http://natas26.natas.labs.overthewire.org
+Username: natas26
+Password: oaiUtFowSIozK7m64cRseXo0nrZKbL0k
+Commands:
+  - Open the URL in a web browser.
+  - This level often involves object serialization vulnerabilities.
+  - Analyze how objects are handled (serialized/unserialized) and try to craft malicious serialized objects to achieve code execution.
+
+
+# Level 27
+URL: http://natas27.natas.labs.overthewire.org
+Username: natas27
+Password: 5EqiFRwRwkRlNiG96msbE91JQiwrD0ha
+Commands:
+  - Open the URL in a web browser.
+  - This level might involve understanding access controls or how user roles are managed.
+  - Try to exploit weaknesses in the role management system to gain higher privileges.
+
+
+# Level 28
+URL: http://natas28.natas.labs.overthewire.org
+Username: natas28
+Password: DN9ykJc2uAdOoe09muRTWXP63kw1f5Rn
+Commands:
+  - Open the URL in a web browser.
+  - This level could involve cryptographic vulnerabilities, such as weaknesses in encryption algorithms or key management.
+  - Analyze the encryption process and look for ways to break or bypass it.
+
+
+# Level 29
+URL: http://natas29.natas.labs.overthewire.org
+Username: natas29
+Password: w0Ko0hY1uLBvFu59bD5L19qVyG51QxJl
+Commands:
+  - Open the URL in a web browser.
+  - This level might involve web server configuration vulnerabilities or directory traversal issues.
+  - Try to access restricted files or directories by manipulating URLs.
+
+
+# Level 30
+URL: http://natas30.natas.labs.overthewire.org
+Username: natas30
+Password: RCoHHEcdcRsyMrdPyy71iIuRIoZkGjSm
+Commands:
+  - Open the URL in a web browser.
+  - This level could involve vulnerabilities related to web server extensions or modules.
+  - Analyze how the server handles different types of requests and look for exploitable behavior.
+
+
+# Level 31
+URL: http://natas31.natas.labs.overthewire.org
+Username: natas31
+Password: ZAhcYrTjPcTmSShnoQrgxqB9bUPQqF9r
+Commands:
+  - Open the URL in a web browser.
+  - This level might involve vulnerabilities in the handling of HTTP methods (e.g., PUT, DELETE) or other less common request types.
+  - Experiment with different HTTP methods to see how the server responds.
+
+
+# Level 32
+URL: http://natas32.natas.labs.overthewire.org
+Username: natas32
+Password: YsGGUh81nwn4FVuhShTvTBuMjIuFMiaP
+Commands:
+  - Open the URL in a web browser.
+  - This level could involve vulnerabilities related to internationalization (i18n) or character encoding.
+  - Try manipulating character sets or using special characters to bypass security measures.
+
+
+# Level 33
+URL: http://natas33.natas.labs.overthewire.org
+Username: natas33
+Password: Uj1yupZcGrf69Mk6S2msXm97YgeG6x1s
+Commands:
+  - Open the URL in a web browser.
+  - This level might involve understanding how the application interacts with external systems or APIs.
+  - Look for vulnerabilities in how external data is processed or used.
+
+
+# Level 34
+URL: http://natas34.natas.labs.overthewire.org
+Username: natas34
+Password: Now4BBR9z10cLm7nGu95fejyZABY7boY
+Commands:
+  - Open the URL in a web browser.
+  - This level often involves understanding and exploiting cryptographic weaknesses or implementation errors in a more complex scenario.
+  - Careful analysis of the provided code or the application's behavior is crucial.
