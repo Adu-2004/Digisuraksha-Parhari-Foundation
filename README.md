@@ -3,10 +3,9 @@
 # T-pot: The All-in-One Multiple Honeypot Platform
 
 **Team Name:** Tri-force 
-**Team members name:** 
-      * Anirudh Mehandru 
-      * Aditya Dongare
-      * Yash Yadav
+**Team members name:** 1.Anirudh Mehandru 
+  2.Aditya Dongare
+  3.Yash Yadav
 ## Problem Statement
 
 In today's evolving threat landscape, understanding attacker behavior is crucial for effective cybersecurity. Deploying and managing multiple honeypots, each simulating different services and vulnerabilities, can provide valuable insights into attacker tactics, techniques, and procedures (TTPs). However, setting up and maintaining a diverse range of honeypots can be complex and time-consuming, often requiring expertise in various technologies and manual configuration.
