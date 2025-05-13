@@ -3,7 +3,10 @@
 # T-pot: The All-in-One Multiple Honeypot Platform
 
 **Team Name:** Tri-force 
-**Team members name:** 1.Anirudh Mehandru 
+
+**Team members name:**
+
+  1.Anirudh Mehandru 
   2.Aditya Dongare
   3.Yash Yadav
 ## Problem Statement
